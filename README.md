@@ -34,8 +34,8 @@ Run following commands to obtain the sample perturbed 10 members:
 ./run_addprtb.sh 2
 ```
 
-The resulting data will be contained in `rsm2rsm27_bgm/20220618{00,12}`.
+The resulting data will be contained in `rsm2rsm27_bgm/20220618{00,06}`.
 
-The sample data is contained in `rsm2rsm27_bgmtest/20220618{00,12}` to compare the results.
+The sample data `rsm2rsm27_bgmtest` can be downloaded from [here](https://drive.google.com/file/d/1Ra7EZDzuDTjoqgfJjoPe169casO5zK4L/view?usp=sharing) to compare the results.
 
 If you run a simulation from these perturbed state, you can calculate the perturbation energy evolution using `run_calcte.sh`.
