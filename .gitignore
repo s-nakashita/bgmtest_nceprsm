@@ -1,0 +1,5 @@
+build
+lib/incmod
+lib/*.a
+rsm2rsm27_bgmtest
+
