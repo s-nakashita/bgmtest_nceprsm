@@ -25,6 +25,8 @@ To compile the programs, edit and run `compile.sh`.
 
 ## Test
 
+Download sample data `rsm2rsm27_bgmtest.tar.gz` from [here](https://drive.google.com/file/d/1Ra7EZDzuDTjoqgfJjoPe169casO5zK4L/view?usp=sharing) and extract it under the working directory.
+
 Run following commands to obtain the sample perturbed 10 members:
 
 ```default
@@ -36,6 +38,4 @@ Run following commands to obtain the sample perturbed 10 members:
 
 The resulting data will be contained in `rsm2rsm27_bgm/20220618{00,06}`.
 
-The sample data `rsm2rsm27_bgmtest` can be downloaded from [here](https://drive.google.com/file/d/1Ra7EZDzuDTjoqgfJjoPe169casO5zK4L/view?usp=sharing) to compare the results.
-
-If you run a simulation from these perturbed state, you can calculate the perturbation energy evolution using `run_calcte.sh`.
+If you run a simulation from these perturbed state, you can calculate the evolution of perturbation energy using `run_calcte.sh`.
